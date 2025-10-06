@@ -3,7 +3,7 @@ package cmu.detector.dummy.kind;
 /**
  * This class has 10 methods: 9 explicitly defined methods and 1 default constructor
  *
- * TCC = 0.0 None method interact
+ * LOC = 29
  */
 public abstract class DummyAbstractType {
     public void publicMethod() {

@@ -2,6 +2,7 @@ package cmu.detector.dummy.kind;
 
 /**
  * This class has 12 methods: 11 declared here plus 1 declared in the interface
+ * LOC = 52
  */
 public class DummyType implements DummyInterface {
     private int value;

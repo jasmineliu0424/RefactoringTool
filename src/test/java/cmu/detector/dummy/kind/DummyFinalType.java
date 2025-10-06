@@ -2,6 +2,7 @@ package cmu.detector.dummy.kind;
 
 /**
  * This class has 15 methods: 5 declared here plus 10 defined in DummyType
+ * LOC = 19
  */
 public final class DummyFinalType extends DummyType {
     public boolean value;
