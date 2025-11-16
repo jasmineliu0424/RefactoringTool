@@ -1,5 +1,7 @@
 package cmu.detector.metrics.cohesion;
 
+import cmu.detector.metrics.calculators.type.TCCMetricValueCalculator;
+import cmu.detector.resources.Type;
 import cmu.detector.util.TypeLoader;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
@@ -31,7 +33,14 @@ public class TightClassCohesionTest {
             "SimpleClass, 0.4",
     })
     public void checkTCC(String input, double expected) {
-        Assertions.fail();
+        Type typeClass = TypeLoader.findTypeByName(input);
+        Assertions.assertNotNull(typeClass, "Type not found: " + input);
+        
+        TCCMetricValueCalculator calculator = new TCCMetricValueCalculator();
+        double actual = calculator.getValue(typeClass.getNode());
+        
+        Assertions.assertEquals(expected, actual, 0.0001,
+            String.format("TCC for %s: expected=%f, actual=%f", input, expected, actual));
     }
 
 }

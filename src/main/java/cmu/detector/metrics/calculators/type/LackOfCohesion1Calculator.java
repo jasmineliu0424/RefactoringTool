@@ -1,5 +1,12 @@
 package cmu.detector.metrics.calculators.type;
 
+import cmu.detector.ast.visitors.FieldAccessVisitor;
+import cmu.detector.ast.visitors.InstanceMembersVisitor;
+import cmu.detector.metrics.MetricName;
+import cmu.detector.metrics.calculators.MetricValueCalculator;
+import org.eclipse.jdt.core.dom.*;
+
+import java.util.*;
 
 /**
  * Class to calculate the LCOM1 (Lack of Cohesion of Methods) metric.
@@ -37,6 +44,75 @@ package cmu.detector.metrics.calculators.type;
  *
  * @author Leonardo Sousa
  */
-public class LackOfCohesion1Calculator {
+public class LackOfCohesion1Calculator extends MetricValueCalculator {
 
+    @Override
+    protected Double computeValue(ASTNode target) {
+        if (!(target instanceof TypeDeclaration)) {
+            return 0.0;
+        }
+
+        TypeDeclaration typeDecl = (TypeDeclaration) target;
+        
+        // Collect instance members
+        InstanceMembersVisitor membersVisitor = new InstanceMembersVisitor();
+        typeDecl.accept(membersVisitor);
+        
+        Set<IVariableBinding> instanceFields = membersVisitor.getInstanceFields();
+        List<MethodDeclaration> instanceMethods = membersVisitor.getInstanceMethods();
+        
+        if (instanceMethods.size() < 2) {
+            return 0.0;
+        }
+        
+        // Collect field access for each method
+        FieldAccessVisitor fieldAccessVisitor = new FieldAccessVisitor(instanceFields);
+        typeDecl.accept(fieldAccessVisitor);
+        Map<MethodDeclaration, Set<IVariableBinding>> methodFieldAccess = fieldAccessVisitor.getMethodFieldAccess();
+        
+        // Count P and Q
+        int P = 0; // Pairs with disjoint field access
+        int Q = 0; // Pairs with shared field access
+        
+        for (int i = 0; i < instanceMethods.size(); i++) {
+            for (int j = i + 1; j < instanceMethods.size(); j++) {
+                MethodDeclaration m1 = instanceMethods.get(i);
+                MethodDeclaration m2 = instanceMethods.get(j);
+                
+                Set<IVariableBinding> fields1 = methodFieldAccess.get(m1);
+                Set<IVariableBinding> fields2 = methodFieldAccess.get(m2);
+                
+                if (fields1 == null) fields1 = new HashSet<>();
+                if (fields2 == null) fields2 = new HashSet<>();
+                
+                // Check if they share any fields
+                boolean sharesFields = false;
+                for (IVariableBinding field : fields1) {
+                    if (fields2.contains(field)) {
+                        sharesFields = true;
+                        break;
+                    }
+                }
+                
+                if (sharesFields) {
+                    Q++;
+                } else {
+                    P++;
+                }
+            }
+        }
+        
+        // LCOM1 = P - Q if P > Q, else 0
+        return P > Q ? (double) (P - Q) : 0.0;
+    }
+
+    @Override
+    public MetricName getMetricName() {
+        return MetricName.LCOM1;
+    }
+
+    @Override
+    public boolean shouldComputeAggregate() {
+        return true;
+    }
 }

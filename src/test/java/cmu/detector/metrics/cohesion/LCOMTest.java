@@ -1,5 +1,7 @@
 package cmu.detector.metrics.cohesion;
 
+import cmu.detector.metrics.calculators.type.*;
+import cmu.detector.resources.Type;
 import cmu.detector.util.TypeLoader;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
@@ -32,7 +34,14 @@ public class LCOMTest {
 
     })
     public void checkLCOM1(String input, double expected) {
-        Assertions.fail();
+        Type typeClass = TypeLoader.findTypeByName(input);
+        Assertions.assertNotNull(typeClass, "Type not found: " + input);
+        
+        LackOfCohesion1Calculator calculator = new LackOfCohesion1Calculator();
+        double actual = calculator.getValue(typeClass.getNode());
+        
+        Assertions.assertEquals(expected, actual, 0.0001, 
+            String.format("LCOM1 for %s: expected=%f, actual=%f", input, expected, actual));
     }
 
     @ParameterizedTest
@@ -48,7 +57,14 @@ public class LCOMTest {
 
     })
     public void checkLCOM2(String input, double expected) {
-        Assertions.fail();
+        Type typeClass = TypeLoader.findTypeByName(input);
+        Assertions.assertNotNull(typeClass, "Type not found: " + input);
+        
+        LackOfCohesion2Calculator calculator = new LackOfCohesion2Calculator();
+        double actual = calculator.getValue(typeClass.getNode());
+        
+        Assertions.assertEquals(expected, actual, 0.0001,
+            String.format("LCOM2 for %s: expected=%f, actual=%f", input, expected, actual));
     }
 
     @ParameterizedTest
@@ -64,7 +80,14 @@ public class LCOMTest {
 
     })
     public void checkLCOM3(String input, double expected) {
-        Assertions.fail();
+        Type typeClass = TypeLoader.findTypeByName(input);
+        Assertions.assertNotNull(typeClass, "Type not found: " + input);
+        
+        LackOfCohesion3Calculator calculator = new LackOfCohesion3Calculator();
+        double actual = calculator.getValue(typeClass.getNode());
+        
+        Assertions.assertEquals(expected, actual, 0.0001,
+            String.format("LCOM3 for %s: expected=%f, actual=%f", input, expected, actual));
     }
 
     @ParameterizedTest
@@ -79,7 +102,14 @@ public class LCOMTest {
             "SimpleClass, 1"
     })
     public void checkLCOM4(String input, double expected) {
-        Assertions.fail();
+        Type typeClass = TypeLoader.findTypeByName(input);
+        Assertions.assertNotNull(typeClass, "Type not found: " + input);
+        
+        LackOfCohesion4Calculator calculator = new LackOfCohesion4Calculator();
+        double actual = calculator.getValue(typeClass.getNode());
+        
+        Assertions.assertEquals(expected, actual, 0.0001,
+            String.format("LCOM4 for %s: expected=%f, actual=%f", input, expected, actual));
     }
 
 }

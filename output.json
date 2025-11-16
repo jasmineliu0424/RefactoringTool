@@ -1,0 +1,5253 @@
+[
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/metrics/cohesion/TightClassCohesionTest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.cohesion.TightClassCohesionTest.setUp",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/metrics/cohesion/TightClassCohesionTest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.cohesion.TightClassCohesionTest.checkTCC",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/metrics/cohesion/TightClassCohesionTest.java"
+    },
+    "fullyQualifiedName": "cmu.detector.metrics.cohesion.TightClassCohesionTest",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 1.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/metrics/cohesion/LCOMTest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.cohesion.LCOMTest.setUp",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/metrics/cohesion/LCOMTest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.cohesion.LCOMTest.checkLCOM1",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/metrics/cohesion/LCOMTest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.cohesion.LCOMTest.checkLCOM2",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/metrics/cohesion/LCOMTest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.cohesion.LCOMTest.checkLCOM3",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/metrics/cohesion/LCOMTest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.cohesion.LCOMTest.checkLCOM4",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/metrics/cohesion/LCOMTest.java"
+    },
+    "fullyQualifiedName": "cmu.detector.metrics.cohesion.LCOMTest",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 10.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 5.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/metrics/MaxCallChainTest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.MaxCallChainTest.setUp",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/metrics/MaxCallChainTest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.MaxCallChainTest.countMaxCallChain",
+        "metricsValues": {
+          "MaxCallChain": 4.0
+        },
+        "kind": "package-private method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/metrics/MaxCallChainTest.java"
+    },
+    "fullyQualifiedName": "cmu.detector.metrics.MaxCallChainTest",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 1.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/DummyCyclomaticComplexity.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.DummyCyclomaticComplexity.simpleMethod",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/DummyCyclomaticComplexity.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.DummyCyclomaticComplexity.ifElseMethod",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/DummyCyclomaticComplexity.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.DummyCyclomaticComplexity.switchMethod",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/DummyCyclomaticComplexity.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.DummyCyclomaticComplexity.switchMethodDefault",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/DummyCyclomaticComplexity.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.DummyCyclomaticComplexity.forLoopMethod",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/DummyCyclomaticComplexity.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.DummyCyclomaticComplexity.whileLoopMethod",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/DummyCyclomaticComplexity.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.DummyCyclomaticComplexity.doWhileLoopMethod",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/DummyCyclomaticComplexity.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.DummyCyclomaticComplexity.nestedControlMethod",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/DummyCyclomaticComplexity.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.DummyCyclomaticComplexity.multipleReturnMethod",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/DummyCyclomaticComplexity.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.DummyCyclomaticComplexity.tryCatchFinallyMethod",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/DummyCyclomaticComplexity.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.metrics.DummyCyclomaticComplexity",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 45.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 10.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/NoCohesion.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.NoCohesion.m1",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/NoCohesion.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.NoCohesion.m2",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/NoCohesion.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.NoCohesion.m3",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "private static method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/NoCohesion.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.NoCohesion.m4",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "private method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/NoCohesion.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.NoCohesion",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 3.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/SimpleClass.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.SimpleClass.m1",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/SimpleClass.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.SimpleClass.m2",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/SimpleClass.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.SimpleClass.m3",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/SimpleClass.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.SimpleClass.m4",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/SimpleClass.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.SimpleClass.m5",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/SimpleClass.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.SimpleClass",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 2.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.625,
+      "TightClassCohesion": 0.4,
+      "LackOfCohesionOfMethods2": 0.5
+    },
+    "kind": "class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/HighCohesion.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.HighCohesion.m1",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/HighCohesion.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.HighCohesion.m2",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "package-private static method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/HighCohesion.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.HighCohesion.m3",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "package-private method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/HighCohesion.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.HighCohesion",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 1.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/Simple1.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.Simple1.m1",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/Simple1.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.Simple1.m2",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/Simple1.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.Simple1.m3",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/Simple1.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.Simple1.m4",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/Simple1.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.Simple1.m5",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/Simple1.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.Simple1",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 8.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 3.0,
+      "LackOfCohesionOfMethods3": 0.875,
+      "TightClassCohesion": 0.1,
+      "LackOfCohesionOfMethods2": 0.7
+    },
+    "kind": "class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/Simple1.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.Simple1.Complex2.n1",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/Simple1.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.Simple1.Complex2.n2",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/Simple1.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.Simple1.Complex2",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 1.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 1.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.5
+    },
+    "kind": "class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/Simple1Inner.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.Simple1Inner.m1",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/Simple1Inner.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.Simple1Inner.m2",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/Simple1Inner.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.Simple1Inner.m3",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/Simple1Inner.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.Simple1Inner.m4",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/Simple1Inner.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.Simple1Inner.m5",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/Simple1Inner.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.Simple1Inner",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 8.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 3.0,
+      "LackOfCohesionOfMethods3": 0.875,
+      "TightClassCohesion": 0.1,
+      "LackOfCohesionOfMethods2": 0.7
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/Simple1Inner.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.Simple1Inner.Complex2.n1",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/Simple1Inner.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.Simple1Inner.Complex2.n2",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/Simple1Inner.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.Simple1Inner.Complex2",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 1.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 1.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.5
+    },
+    "kind": "class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/DisconnectedClass.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.DisconnectedClass.A",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/DisconnectedClass.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.DisconnectedClass.B",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/DisconnectedClass.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.DisconnectedClass.C",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/DisconnectedClass.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.DisconnectedClass.D",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/DisconnectedClass.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.DisconnectedClass.E",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/DisconnectedClass.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.DisconnectedClass",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 8.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.875,
+      "TightClassCohesion": 0.2,
+      "LackOfCohesionOfMethods2": 0.7
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/MediumCohesion.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.MediumCohesion.m1",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/MediumCohesion.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.MediumCohesion.m2",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/MediumCohesion.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.MediumCohesion.m3",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/MediumCohesion.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.MediumCohesion.m4",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/MediumCohesion.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.MediumCohesion",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.3333333333333333,
+      "TightClassCohesion": 0.3333333333333333,
+      "LackOfCohesionOfMethods2": 0.25
+    },
+    "kind": "class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/ConnectedClass.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.ConnectedClass.A",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/ConnectedClass.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.ConnectedClass.B",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/ConnectedClass.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.ConnectedClass.C",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/ConnectedClass.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.ConnectedClass.D",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/ConnectedClass.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.ConnectedClass.E",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/cohesion/ConnectedClass.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.metrics.cohesion.ConnectedClass",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 6.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.75,
+      "TightClassCohesion": 0.4,
+      "LackOfCohesionOfMethods2": 0.6
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/LOCTest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.LOCTest.setUp",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/LOCTest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.LOCTest.countTypeLines",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/LOCTest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.LOCTest.countMethodLines",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/LOCTest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.metrics.LOCTest.countMethodLinesEdgeCases",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/metrics/LOCTest.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.metrics.LOCTest",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 6.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 4.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyType.DummyType",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "package-private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyType.oneCallChain",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyType.oneMoreCallChain",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyType.anotherOneCallChain",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyType.twoCallChain",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyType.anotherTwoCallChain",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyType.threeCallChain",
+        "metricsValues": {
+          "MaxCallChain": 3.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyType.fourCallChain",
+        "metricsValues": {
+          "MaxCallChain": 4.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyType.dummyInterfaceMethod",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyType.getValue",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyType.getFakeValue",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyType.setValue",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyType.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.kind.DummyType",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 60.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 10.0,
+      "LackOfCohesionOfMethods3": 0.8181818181818182,
+      "TightClassCohesion": 0.06666666666666667,
+      "LackOfCohesionOfMethods2": 0.75
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyAbstractType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyAbstractType.publicMethod",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyAbstractType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyAbstractType.protectedMethod",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "protected method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyAbstractType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyAbstractType.privateMethod",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyAbstractType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyAbstractType.packagePrivateMethod",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "package-private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyAbstractType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyAbstractType.publicStaticMethod",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public static method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyAbstractType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyAbstractType.packagePrivateStaticMethod",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "package-private static method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyAbstractType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyAbstractType.privateFinalMethod",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private final method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyAbstractType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyAbstractType.packagePrivateFinalMethod",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "package-private final method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyAbstractType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyAbstractType.publicAbstractMethod",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public abstract method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyAbstractType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyAbstractType.packagePrivateAbstractMethod",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "package-private abstract method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyAbstractType.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.kind.DummyAbstractType",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 28.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 10.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public abstract class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyInterface.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyInterface.dummyInterfaceMethod",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyInterface.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.kind.DummyInterface",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public interface",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyFinalType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyFinalType.DummyFinalType",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyFinalType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyFinalType.anotherMethod",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyFinalType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyFinalType.getValue",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyFinalType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyFinalType.setValue",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyFinalType.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.DummyFinalType.isValue",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/DummyFinalType.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.kind.DummyFinalType",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 10.0,
+      "PublicFieldCount": 1.0,
+      "LackOfCohesionOfMethods4": 5.0,
+      "LackOfCohesionOfMethods3": 1.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.8
+    },
+    "kind": "public final class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/EdgeCases.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.EdgeCases.method1",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/EdgeCases.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.EdgeCases.method2",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/EdgeCases.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.EdgeCases.method3",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/EdgeCases.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.EdgeCases.method4",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/EdgeCases.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.EdgeCases.testMultipleAnnotation",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "package-private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/EdgeCases.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.EdgeCases.provideTestArgumentsForClassNames",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "package-private static method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/EdgeCases.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.kind.EdgeCases.provideTestArgumentsForInterfaceNames",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "package-private static method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/kind/EdgeCases.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.kind.EdgeCases",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 10.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 7.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/SEMI/FileSet.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.SEMI.FileSet",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 0.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/SEMI/Manifest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.SEMI.Manifest.grabManifests",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/SEMI/Manifest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.SEMI.Manifest.grabRes",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/SEMI/Manifest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.SEMI.Manifest.grabNonFileSetRes",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/SEMI/Manifest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.SEMI.Manifest.getProj",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/SEMI/Manifest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.SEMI.Manifest.main",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public static method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/SEMI/Manifest.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.SEMI.Manifest",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 6.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 1.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.75
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/SEMI/Resource.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.SEMI.Resource.getName",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/SEMI/Resource.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.SEMI.Resource.setName",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/SEMI/Resource.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.SEMI.Resource",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 1.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/SEMI/ArchiveFileSet.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.SEMI.ArchiveFileSet.getFullPath",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/dummy/SEMI/ArchiveFileSet.java"
+        },
+        "fullyQualifiedName": "cmu.detector.dummy.SEMI.ArchiveFileSet.getPref",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/dummy/SEMI/ArchiveFileSet.java"
+    },
+    "fullyQualifiedName": "cmu.detector.dummy.SEMI.ArchiveFileSet",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 1.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/util/TypeLoader.java"
+        },
+        "fullyQualifiedName": "cmu.detector.util.TypeLoader.loadAllFromDir",
+        "metricsValues": {
+          "MaxCallChain": 3.0
+        },
+        "kind": "public static method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/util/TypeLoader.java"
+        },
+        "fullyQualifiedName": "cmu.detector.util.TypeLoader.findTypeByName",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public static method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/util/TypeLoader.java"
+        },
+        "fullyQualifiedName": "cmu.detector.util.TypeLoader.getTypes",
+        "metricsValues": {
+          "MaxCallChain": 3.0
+        },
+        "kind": "public static method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/util/TypeLoader.java"
+    },
+    "fullyQualifiedName": "cmu.detector.util.TypeLoader",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/resources/TypeTest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.TypeTest.setUp",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/resources/TypeTest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.TypeTest.identifyKindType",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/resources/TypeTest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.TypeTest.identifyKindMultipleTypes",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/test/java/cmu/detector/resources/TypeTest.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.TypeTest.identifyMethodMultipleTypes",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/test/java/cmu/detector/resources/TypeTest.java"
+    },
+    "fullyQualifiedName": "cmu.detector.resources.TypeTest",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 6.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 4.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/MetricValueCollector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.MetricValueCollector.MetricValueCollector",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/MetricValueCollector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.MetricValueCollector.addCalculator",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "protected method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/MetricValueCollector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.MetricValueCollector.collect",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/metrics/MetricValueCollector.java"
+    },
+    "fullyQualifiedName": "cmu.detector.metrics.MetricValueCollector",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 1.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public abstract class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/MethodMetricValueCollector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.MethodMetricValueCollector.MethodMetricValueCollector",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/metrics/MethodMetricValueCollector.java"
+    },
+    "fullyQualifiedName": "cmu.detector.metrics.MethodMetricValueCollector",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/MetricValueCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.MetricValueCalculator.MetricValueCalculator",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/MetricValueCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.MetricValueCalculator.getValue",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/MetricValueCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.MetricValueCalculator.computeValue",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "protected abstract method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/MetricValueCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.MetricValueCalculator.getMetricName",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public abstract method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/MetricValueCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.MetricValueCalculator.shouldComputeAggregate",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/MetricValueCalculator.java"
+    },
+    "fullyQualifiedName": "cmu.detector.metrics.calculators.MetricValueCalculator",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 10.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 4.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public abstract class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/LackOfCohesion1Calculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.LackOfCohesion1Calculator.computeValue",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "protected method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/LackOfCohesion1Calculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.LackOfCohesion1Calculator.getMetricName",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/LackOfCohesion1Calculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.LackOfCohesion1Calculator.shouldComputeAggregate",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/LackOfCohesion1Calculator.java"
+    },
+    "fullyQualifiedName": "cmu.detector.metrics.calculators.type.LackOfCohesion1Calculator",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 3.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 3.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/PublicFieldCountCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.PublicFieldCountCalculator.computeValue",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "protected method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/PublicFieldCountCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.PublicFieldCountCalculator.getMetricName",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/PublicFieldCountCalculator.java"
+    },
+    "fullyQualifiedName": "cmu.detector.metrics.calculators.type.PublicFieldCountCalculator",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 1.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/LackOfCohesion2Calculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.LackOfCohesion2Calculator.computeValue",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "protected method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/LackOfCohesion2Calculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.LackOfCohesion2Calculator.getMetricName",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/LackOfCohesion2Calculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.LackOfCohesion2Calculator.shouldComputeAggregate",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/LackOfCohesion2Calculator.java"
+    },
+    "fullyQualifiedName": "cmu.detector.metrics.calculators.type.LackOfCohesion2Calculator",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 3.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 3.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/LackOfCohesion3Calculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.LackOfCohesion3Calculator.computeValue",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "protected method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/LackOfCohesion3Calculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.LackOfCohesion3Calculator.getMetricName",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/LackOfCohesion3Calculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.LackOfCohesion3Calculator.shouldComputeAggregate",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/LackOfCohesion3Calculator.java"
+    },
+    "fullyQualifiedName": "cmu.detector.metrics.calculators.type.LackOfCohesion3Calculator",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 3.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 3.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/TCCMetricValueCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.TCCMetricValueCalculator.computeValue",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "protected method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/TCCMetricValueCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.TCCMetricValueCalculator.getInstanceFields",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/TCCMetricValueCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.TCCMetricValueCalculator.getMetricName",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/TCCMetricValueCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.TCCMetricValueCalculator.shouldComputeAggregate",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/TCCMetricValueCalculator.java"
+    },
+    "fullyQualifiedName": "cmu.detector.metrics.calculators.type.TCCMetricValueCalculator",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 6.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 3.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/LackOfCohesion4Calculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.LackOfCohesion4Calculator.computeValue",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "protected method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/LackOfCohesion4Calculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.LackOfCohesion4Calculator.buildAdjacencyGraph",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/LackOfCohesion4Calculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.LackOfCohesion4Calculator.countConnectedComponents",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/LackOfCohesion4Calculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.LackOfCohesion4Calculator.dfs",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/LackOfCohesion4Calculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.LackOfCohesion4Calculator.getMetricName",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/LackOfCohesion4Calculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.LackOfCohesion4Calculator.shouldComputeAggregate",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/LackOfCohesion4Calculator.java"
+    },
+    "fullyQualifiedName": "cmu.detector.metrics.calculators.type.LackOfCohesion4Calculator",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 15.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 3.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/TypeLOCCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.TypeLOCCalculator.computeValue",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "protected method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/TypeLOCCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.TypeLOCCalculator.getMetricName",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/TypeLOCCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.TypeLOCCalculator.shouldComputeAggregate",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/TypeLOCCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.type.TypeLOCCalculator.getCompilationUnit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/type/TypeLOCCalculator.java"
+    },
+    "fullyQualifiedName": "cmu.detector.metrics.calculators.type.TypeLOCCalculator",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 6.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 3.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/AggregateMetricValues.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.AggregateMetricValues.AggregateMetricValues",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/AggregateMetricValues.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.AggregateMetricValues.reset",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/AggregateMetricValues.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.AggregateMetricValues.register",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/AggregateMetricValues.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.AggregateMetricValues.getAverageValue",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/AggregateMetricValues.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.AggregateMetricValues.getFirstQuartileValue",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/AggregateMetricValues.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.AggregateMetricValues.getStandardDeviation",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/AggregateMetricValues.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.AggregateMetricValues.getInstance",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public static method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/AggregateMetricValues.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.AggregateMetricValues.update",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/AggregateMetricValues.java"
+    },
+    "fullyQualifiedName": "cmu.detector.metrics.calculators.AggregateMetricValues",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 1.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.5416666666666666,
+      "TightClassCohesion": 0.6,
+      "LackOfCohesionOfMethods2": 0.4642857142857143
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/method/MaxCallChainCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.method.MaxCallChainCalculator.computeValue",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "protected method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/method/MaxCallChainCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.method.MaxCallChainCalculator.getMetricName",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/method/MaxCallChainCalculator.java"
+    },
+    "fullyQualifiedName": "cmu.detector.metrics.calculators.method.MaxCallChainCalculator",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 1.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/method/MethodLOCCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.method.MethodLOCCalculator.computeValue",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "protected method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/method/MethodLOCCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.method.MethodLOCCalculator.getMetricName",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/method/MethodLOCCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.method.MethodLOCCalculator.shouldComputeAggregate",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/method/MethodLOCCalculator.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.calculators.method.MethodLOCCalculator.getCompilationUnit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/metrics/calculators/method/MethodLOCCalculator.java"
+    },
+    "fullyQualifiedName": "cmu.detector.metrics.calculators.method.MethodLOCCalculator",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 6.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 3.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/metrics/TypeMetricValueCollector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.metrics.TypeMetricValueCollector.TypeMetricValueCollector",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/metrics/TypeMetricValueCollector.java"
+    },
+    "fullyQualifiedName": "cmu.detector.metrics.TypeMetricValueCollector",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Method.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Method.getBinding",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Method.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Method.registerOnCallGraph",
+        "metricsValues": {
+          "MaxCallChain": 3.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Method.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Method.Method",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Method.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Method.getParametersTypes",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Method.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Method.identifyKind",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "protected method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Method.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Method.toString",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/resources/Method.java"
+    },
+    "fullyQualifiedName": "cmu.detector.resources.Method",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 13.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 3.0,
+      "LackOfCohesionOfMethods3": 0.8,
+      "TightClassCohesion": 0.1,
+      "LackOfCohesionOfMethods2": 0.6666666666666667
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Type.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Type.getNodeAsTypeDeclaration",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Type.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Type.getBinding",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Type.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Type.getSuperclassBinding",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Type.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Type.Type",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Type.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Type.searchForMethods",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Type.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Type.findMethodByName",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Type.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Type.getMethods",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Type.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Type.getChildren",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Type.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Type.identifyKind",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "protected method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Type.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Type.toString",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/resources/Type.java"
+    },
+    "fullyQualifiedName": "cmu.detector.resources.Type",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 37.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 4.0,
+      "LackOfCohesionOfMethods3": 0.8333333333333334,
+      "TightClassCohesion": 0.05555555555555555,
+      "LackOfCohesionOfMethods2": 0.75
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Resource.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Resource.Resource",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Resource.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Resource.getKind",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Resource.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Resource.setKind",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Resource.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Resource.getNode",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Resource.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Resource.getStartLineNumber",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Resource.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Resource.getEndLineNumber",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Resource.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Resource.addMetricValue",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Resource.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Resource.getSourceFile",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Resource.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Resource.setSourceFile",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "protected method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Resource.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Resource.getMetricValue",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Resource.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Resource.getFullyQualifiedName",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Resource.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Resource.setFullyQualifiedName",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "protected method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Resource.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Resource.addAllSmells",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Resource.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Resource.hasSmell",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/Resource.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.Resource.identifyKind",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "protected abstract method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/resources/Resource.java"
+    },
+    "fullyQualifiedName": "cmu.detector.resources.Resource",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 63.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 3.0,
+      "LackOfCohesionOfMethods3": 0.8452380952380952,
+      "TightClassCohesion": 0.2,
+      "LackOfCohesionOfMethods2": 0.7888888888888889
+    },
+    "kind": "public abstract class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/loader/JavaFilesFinder.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.loader.JavaFilesFinder.JavaFilesFinder",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/loader/JavaFilesFinder.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.loader.JavaFilesFinder.JavaFilesFinder",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/loader/JavaFilesFinder.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.loader.JavaFilesFinder.JavaFilesFinder",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/loader/JavaFilesFinder.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.loader.JavaFilesFinder.addDir",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/loader/JavaFilesFinder.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.loader.JavaFilesFinder.getSourcePaths",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/loader/JavaFilesFinder.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.loader.JavaFilesFinder.findAll",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/resources/loader/JavaFilesFinder.java"
+    },
+    "fullyQualifiedName": "cmu.detector.resources.loader.JavaFilesFinder",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 1.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/loader/SourceFile.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.loader.SourceFile.SourceFile",
+        "metricsValues": {
+          "MaxCallChain": 3.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/loader/SourceFile.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.loader.SourceFile.searchForTypes",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/loader/SourceFile.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.loader.SourceFile.getTypes",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/loader/SourceFile.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.loader.SourceFile.getFile",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/loader/SourceFile.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.loader.SourceFile.getFileRelativePath",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/loader/SourceFile.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.loader.SourceFile.getCompilationUnit",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/resources/loader/SourceFile.java"
+    },
+    "fullyQualifiedName": "cmu.detector.resources.loader.SourceFile",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 3.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.75,
+      "TightClassCohesion": 0.3,
+      "LackOfCohesionOfMethods2": 0.625
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/loader/SourceFilesLoader.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.loader.SourceFilesLoader.SourceFilesLoader",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/loader/SourceFilesLoader.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.loader.SourceFilesLoader.SourceFilesLoader",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/loader/SourceFilesLoader.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.loader.SourceFilesLoader.SourceFilesLoader",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/loader/SourceFilesLoader.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.loader.SourceFilesLoader.load",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/loader/SourceFilesLoader.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.loader.SourceFilesLoader.getLoadedSourceFiles",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/resources/loader/SourceFilesLoader.java"
+    },
+    "fullyQualifiedName": "cmu.detector.resources.loader.SourceFilesLoader",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.125,
+      "TightClassCohesion": 1.0,
+      "LackOfCohesionOfMethods2": 0.09999999999999998
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/loader/SourceFileASTRequestor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.loader.SourceFileASTRequestor.SourceFileASTRequestor",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/loader/SourceFileASTRequestor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.loader.SourceFileASTRequestor.acceptAST",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/loader/SourceFileASTRequestor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.loader.SourceFileASTRequestor.getSourceFiles",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/resources/loader/SourceFileASTRequestor.java"
+    },
+    "fullyQualifiedName": "cmu.detector.resources.loader.SourceFileASTRequestor",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 1.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/ParenthoodRegistry.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.ParenthoodRegistry.ParenthoodRegistry",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/ParenthoodRegistry.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.ParenthoodRegistry.getInstance",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public static method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/ParenthoodRegistry.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.ParenthoodRegistry.getQualifiedName",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/ParenthoodRegistry.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.ParenthoodRegistry.isChild",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/ParenthoodRegistry.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.ParenthoodRegistry.isChild",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/ParenthoodRegistry.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.ParenthoodRegistry.getInterfaceAncestors",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/ParenthoodRegistry.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.ParenthoodRegistry.getClassAncestors",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/ParenthoodRegistry.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.ParenthoodRegistry.isDescendant",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/ParenthoodRegistry.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.ParenthoodRegistry.getAncestors",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/ParenthoodRegistry.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.ParenthoodRegistry.addChild",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/ParenthoodRegistry.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.ParenthoodRegistry.registerChild",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/ParenthoodRegistry.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.ParenthoodRegistry.reset",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/ParenthoodRegistry.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.ParenthoodRegistry.getChildrenCount",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/ParenthoodRegistry.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.ParenthoodRegistry.getChildren",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/resources/ParenthoodRegistry.java"
+        },
+        "fullyQualifiedName": "cmu.detector.resources.ParenthoodRegistry.getChildren",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/resources/ParenthoodRegistry.java"
+    },
+    "fullyQualifiedName": "cmu.detector.resources.ParenthoodRegistry",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 67.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.7692307692307693,
+      "TightClassCohesion": 0.19047619047619047,
+      "LackOfCohesionOfMethods2": 0.7142857142857143
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/graph/CallGraph.java"
+        },
+        "fullyQualifiedName": "cmu.detector.graph.CallGraph.CallGraph",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/graph/CallGraph.java"
+        },
+        "fullyQualifiedName": "cmu.detector.graph.CallGraph.getInstance",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public static method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/graph/CallGraph.java"
+        },
+        "fullyQualifiedName": "cmu.detector.graph.CallGraph.addCaller",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/graph/CallGraph.java"
+        },
+        "fullyQualifiedName": "cmu.detector.graph.CallGraph.addCalee",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/graph/CallGraph.java"
+        },
+        "fullyQualifiedName": "cmu.detector.graph.CallGraph.addMethodCall",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/graph/CallGraph.java"
+        },
+        "fullyQualifiedName": "cmu.detector.graph.CallGraph.getCallers",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/graph/CallGraph.java"
+        },
+        "fullyQualifiedName": "cmu.detector.graph.CallGraph.calls",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/graph/CallGraph.java"
+        },
+        "fullyQualifiedName": "cmu.detector.graph.CallGraph.getCalls",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/graph/CallGraph.java"
+        },
+        "fullyQualifiedName": "cmu.detector.graph.CallGraph.reset",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/graph/CallGraph.java"
+    },
+    "fullyQualifiedName": "cmu.detector.graph.CallGraph",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 6.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.5714285714285714,
+      "TightClassCohesion": 0.4,
+      "LackOfCohesionOfMethods2": 0.5
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/SmellDetector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.SmellDetector.detect",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public abstract method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/SmellDetector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.SmellDetector.getSmellName",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "protected abstract method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/SmellDetector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.SmellDetector.createSmell",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "protected method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/SmellDetector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.SmellDetector.createSmell",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "protected method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/smells/SmellDetector.java"
+    },
+    "fullyQualifiedName": "cmu.detector.smells.SmellDetector",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 6.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public abstract class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/Thresholds.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.Thresholds.getLowThreshold",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public static method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/Thresholds.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.Thresholds.getHighThreshold",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public static method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/Thresholds.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.Thresholds.getVeryHighThreshold",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public static method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/smells/Thresholds.java"
+    },
+    "fullyQualifiedName": "cmu.detector.smells.Thresholds",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/CompositeSmellDetector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.CompositeSmellDetector.CompositeSmellDetector",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/CompositeSmellDetector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.CompositeSmellDetector.addDetector",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/CompositeSmellDetector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.CompositeSmellDetector.detect",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/smells/CompositeSmellDetector.java"
+    },
+    "fullyQualifiedName": "cmu.detector.smells.CompositeSmellDetector",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 1.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public abstract class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/Smell.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.Smell.Smell",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/Smell.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.Smell.Smell",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/Smell.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.Smell.Smell",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/Smell.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.Smell.getName",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/Smell.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.Smell.setName",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/Smell.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.Smell.getReason",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/Smell.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.Smell.setReason",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/Smell.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.Smell.getStartingLine",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/Smell.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.Smell.setStartingLine",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/Smell.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.Smell.getEndingLine",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/Smell.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.Smell.setEndingLine",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/smells/Smell.java"
+    },
+    "fullyQualifiedName": "cmu.detector.smells.Smell",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 17.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.75,
+      "TightClassCohesion": 0.34545454545454546,
+      "LackOfCohesionOfMethods2": 0.6818181818181819
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/detectors/MethodLevelSmellDetector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.detectors.MethodLevelSmellDetector.MethodLevelSmellDetector",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/detectors/MethodLevelSmellDetector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.detectors.MethodLevelSmellDetector.getSmellName",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "protected method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/smells/detectors/MethodLevelSmellDetector.java"
+    },
+    "fullyQualifiedName": "cmu.detector.smells.detectors.MethodLevelSmellDetector",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 1.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/detectors/ClassLevelSmellDetector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.detectors.ClassLevelSmellDetector.ClassLevelSmellDetector",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/smells/detectors/ClassLevelSmellDetector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.smells.detectors.ClassLevelSmellDetector.getSmellName",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "protected method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/smells/detectors/ClassLevelSmellDetector.java"
+    },
+    "fullyQualifiedName": "cmu.detector.smells.detectors.ClassLevelSmellDetector",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 1.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/PublicFieldCountVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.PublicFieldCountVisitor.visit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/PublicFieldCountVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.PublicFieldCountVisitor.getPublicFieldCount",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/PublicFieldCountVisitor.java"
+    },
+    "fullyQualifiedName": "cmu.detector.ast.visitors.PublicFieldCountVisitor",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 1.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/TypeDeclarationCollector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.TypeDeclarationCollector.visit",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/TypeDeclarationCollector.java"
+    },
+    "fullyQualifiedName": "cmu.detector.ast.visitors.TypeDeclarationCollector",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/MethodCollector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.MethodCollector.MethodCollector",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/MethodCollector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.MethodCollector.visit",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/MethodCollector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.MethodCollector.visit",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/MethodCollector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.MethodCollector.visit",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/MethodCollector.java"
+    },
+    "fullyQualifiedName": "cmu.detector.ast.visitors.MethodCollector",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 4.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 3.0,
+      "LackOfCohesionOfMethods3": 0.6666666666666666,
+      "TightClassCohesion": 0.16666666666666666,
+      "LackOfCohesionOfMethods2": 0.5
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/MethodCallGraphVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.MethodCallGraphVisitor.MethodCallGraphVisitor",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/MethodCallGraphVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.MethodCallGraphVisitor.visit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/MethodCallGraphVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.MethodCallGraphVisitor.endVisit",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/MethodCallGraphVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.MethodCallGraphVisitor.visit",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/MethodCallGraphVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.MethodCallGraphVisitor.getMethodCalls",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/MethodCallGraphVisitor.java"
+    },
+    "fullyQualifiedName": "cmu.detector.ast.visitors.MethodCallGraphVisitor",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.25,
+      "TightClassCohesion": 0.9,
+      "LackOfCohesionOfMethods2": 0.19999999999999996
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/VisibleInstanceMethodsVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.VisibleInstanceMethodsVisitor.VisibleInstanceMethodsVisitor",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/VisibleInstanceMethodsVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.VisibleInstanceMethodsVisitor.visit",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/VisibleInstanceMethodsVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.VisibleInstanceMethodsVisitor.visit",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/VisibleInstanceMethodsVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.VisibleInstanceMethodsVisitor.visit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/VisibleInstanceMethodsVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.VisibleInstanceMethodsVisitor.getVisibleMethods",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/VisibleInstanceMethodsVisitor.java"
+    },
+    "fullyQualifiedName": "cmu.detector.ast.visitors.VisibleInstanceMethodsVisitor",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 2.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.625,
+      "TightClassCohesion": 0.4,
+      "LackOfCohesionOfMethods2": 0.5
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/CallTreeFieldAccessVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.CallTreeFieldAccessVisitor.CallTreeFieldAccessVisitor",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/CallTreeFieldAccessVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.CallTreeFieldAccessVisitor.analyze",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/CallTreeFieldAccessVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.CallTreeFieldAccessVisitor.getFieldsAccessedByCallTree",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/CallTreeFieldAccessVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.CallTreeFieldAccessVisitor.getFieldsRecursive",
+        "metricsValues": {
+          "MaxCallChain": 3.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/CallTreeFieldAccessVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.CallTreeFieldAccessVisitor.getMethodFieldAccessWithCallTree",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/CallTreeFieldAccessVisitor.java"
+    },
+    "fullyQualifiedName": "cmu.detector.ast.visitors.CallTreeFieldAccessVisitor",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.5625,
+      "TightClassCohesion": 0.3333333333333333,
+      "LackOfCohesionOfMethods2": 0.44999999999999996
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/MaxCallChainVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.MaxCallChainVisitor.MaxCallChainVisitor",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/MaxCallChainVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.MaxCallChainVisitor.visit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/MaxCallChainVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.MaxCallChainVisitor.getMaxCallChain",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/MaxCallChainVisitor.java"
+    },
+    "fullyQualifiedName": "cmu.detector.ast.visitors.MaxCallChainVisitor",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 1.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/AllMembersVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.AllMembersVisitor.AllMembersVisitor",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/AllMembersVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.AllMembersVisitor.visit",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/AllMembersVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.AllMembersVisitor.visit",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/AllMembersVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.AllMembersVisitor.visit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/AllMembersVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.AllMembersVisitor.visit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/AllMembersVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.AllMembersVisitor.getAllFields",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/AllMembersVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.AllMembersVisitor.getAllMethods",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/AllMembersVisitor.java"
+    },
+    "fullyQualifiedName": "cmu.detector.ast.visitors.AllMembersVisitor",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 7.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.7222222222222223,
+      "TightClassCohesion": 0.3333333333333333,
+      "LackOfCohesionOfMethods2": 0.6190476190476191
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/InstanceMembersVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.InstanceMembersVisitor.InstanceMembersVisitor",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/InstanceMembersVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.InstanceMembersVisitor.visit",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/InstanceMembersVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.InstanceMembersVisitor.visit",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/InstanceMembersVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.InstanceMembersVisitor.visit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/InstanceMembersVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.InstanceMembersVisitor.visit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/InstanceMembersVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.InstanceMembersVisitor.getInstanceFields",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/InstanceMembersVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.InstanceMembersVisitor.getInstanceMethods",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/InstanceMembersVisitor.java"
+    },
+    "fullyQualifiedName": "cmu.detector.ast.visitors.InstanceMembersVisitor",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 7.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.7222222222222223,
+      "TightClassCohesion": 0.3333333333333333,
+      "LackOfCohesionOfMethods2": 0.6190476190476191
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/LineCountingVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.LineCountingVisitor.LineCountingVisitor",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/LineCountingVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.LineCountingVisitor.preVisit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/LineCountingVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.LineCountingVisitor.checkIfNodeStartsWithComment",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/LineCountingVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.LineCountingVisitor.endVisit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/LineCountingVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.LineCountingVisitor.endVisit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/LineCountingVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.LineCountingVisitor.endVisit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/LineCountingVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.LineCountingVisitor.endVisit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/LineCountingVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.LineCountingVisitor.endVisit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/LineCountingVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.LineCountingVisitor.endVisit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/LineCountingVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.LineCountingVisitor.endVisit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/LineCountingVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.LineCountingVisitor.endVisit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/LineCountingVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.LineCountingVisitor.endVisit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/LineCountingVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.LineCountingVisitor.endVisit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/LineCountingVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.LineCountingVisitor.addClosingBraceLineNumber",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/LineCountingVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.LineCountingVisitor.getLastContentLine",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/LineCountingVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.LineCountingVisitor.getNodeEndLine",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/LineCountingVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.LineCountingVisitor.getLOC",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/LineCountingVisitor.java"
+    },
+    "fullyQualifiedName": "cmu.detector.ast.visitors.LineCountingVisitor",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 110.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.875,
+      "TightClassCohesion": 0.038461538461538464,
+      "LackOfCohesionOfMethods2": 0.8235294117647058
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/FieldAccessVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.FieldAccessVisitor.FieldAccessVisitor",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/FieldAccessVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.FieldAccessVisitor.visit",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/FieldAccessVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.FieldAccessVisitor.endVisit",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/FieldAccessVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.FieldAccessVisitor.visit",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/FieldAccessVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.FieldAccessVisitor.getMethodFieldAccess",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/FieldAccessVisitor.java"
+    },
+    "fullyQualifiedName": "cmu.detector.ast.visitors.FieldAccessVisitor",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.41666666666666663,
+      "TightClassCohesion": 0.9,
+      "LackOfCohesionOfMethods2": 0.33333333333333337
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/MethodInvocationCollector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.MethodInvocationCollector.MethodInvocationCollector",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/MethodInvocationCollector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.MethodInvocationCollector.visit",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/MethodInvocationCollector.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.visitors.MethodInvocationCollector.getCalls",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/ast/visitors/MethodInvocationCollector.java"
+    },
+    "fullyQualifiedName": "cmu.detector.ast.visitors.MethodInvocationCollector",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 1.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/CollectorVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.CollectorVisitor.CollectorVisitor",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/CollectorVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.CollectorVisitor.addCollectedNode",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "protected method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/CollectorVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.CollectorVisitor.wasAlreadyCollected",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "protected method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/CollectorVisitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.CollectorVisitor.getNodesCollected",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/ast/CollectorVisitor.java"
+    },
+    "fullyQualifiedName": "cmu.detector.ast.CollectorVisitor",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 6.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 4.0,
+      "LackOfCohesionOfMethods3": 1.3333333333333333,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 1.0
+    },
+    "kind": "public abstract class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/ASTBuilder.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.ASTBuilder.getEncoding",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/ASTBuilder.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.ASTBuilder.ASTBuilder",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/ast/ASTBuilder.java"
+        },
+        "fullyQualifiedName": "cmu.detector.ast.ASTBuilder.create",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/ast/ASTBuilder.java"
+    },
+    "fullyQualifiedName": "cmu.detector.ast.ASTBuilder",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 0.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 1.0,
+      "LackOfCohesionOfMethods3": 0.33333333333333326,
+      "TightClassCohesion": 1.0,
+      "LackOfCohesionOfMethods2": 0.2222222222222222
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/RefactoringEngine.java"
+        },
+        "fullyQualifiedName": "cmu.detector.RefactoringEngine.main",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public static method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/RefactoringEngine.java"
+        },
+        "fullyQualifiedName": "cmu.detector.RefactoringEngine.start",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/RefactoringEngine.java"
+        },
+        "fullyQualifiedName": "cmu.detector.RefactoringEngine.loadAllTypes",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/RefactoringEngine.java"
+        },
+        "fullyQualifiedName": "cmu.detector.RefactoringEngine.collectTypeMetrics",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/RefactoringEngine.java"
+        },
+        "fullyQualifiedName": "cmu.detector.RefactoringEngine.collectMethodMetrics",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/RefactoringEngine.java"
+        },
+        "fullyQualifiedName": "cmu.detector.RefactoringEngine.saveInfoFile",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/RefactoringEngine.java"
+    },
+    "fullyQualifiedName": "cmu.detector.RefactoringEngine",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 10.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/console/ToolParameters.java"
+        },
+        "fullyQualifiedName": "cmu.detector.console.ToolParameters.ToolParameters",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/console/ToolParameters.java"
+        },
+        "fullyQualifiedName": "cmu.detector.console.ToolParameters.getInstance",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public static method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/console/ToolParameters.java"
+        },
+        "fullyQualifiedName": "cmu.detector.console.ToolParameters.shouldFilterSmelly",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/console/ToolParameters.java"
+        },
+        "fullyQualifiedName": "cmu.detector.console.ToolParameters.createOptions",
+        "metricsValues": {
+          "MaxCallChain": 7.0
+        },
+        "kind": "private method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/console/ToolParameters.java"
+        },
+        "fullyQualifiedName": "cmu.detector.console.ToolParameters.getValue",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/console/ToolParameters.java"
+        },
+        "fullyQualifiedName": "cmu.detector.console.ToolParameters.parse",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/console/ToolParameters.java"
+        },
+        "fullyQualifiedName": "cmu.detector.console.ToolParameters.printHelp",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/console/ToolParameters.java"
+        },
+        "fullyQualifiedName": "cmu.detector.console.ToolParameters.getOptions",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/console/ToolParameters.java"
+    },
+    "fullyQualifiedName": "cmu.detector.console.ToolParameters",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 9.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 3.0,
+      "LackOfCohesionOfMethods3": 0.6666666666666666,
+      "TightClassCohesion": 0.4,
+      "LackOfCohesionOfMethods2": 0.5714285714285714
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/console/ConsoleProgressMonitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.console.ConsoleProgressMonitor.beginTask",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/console/ConsoleProgressMonitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.console.ConsoleProgressMonitor.done",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/console/ConsoleProgressMonitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.console.ConsoleProgressMonitor.internalWorked",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/console/ConsoleProgressMonitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.console.ConsoleProgressMonitor.isCanceled",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/console/ConsoleProgressMonitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.console.ConsoleProgressMonitor.setCanceled",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/console/ConsoleProgressMonitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.console.ConsoleProgressMonitor.setTaskName",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/console/ConsoleProgressMonitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.console.ConsoleProgressMonitor.subTask",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/console/ConsoleProgressMonitor.java"
+        },
+        "fullyQualifiedName": "cmu.detector.console.ConsoleProgressMonitor.worked",
+        "metricsValues": {
+          "MaxCallChain": 1.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/console/ConsoleProgressMonitor.java"
+    },
+    "fullyQualifiedName": "cmu.detector.console.ConsoleProgressMonitor",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 26.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 7.0,
+      "LackOfCohesionOfMethods3": 0.9047619047619048,
+      "TightClassCohesion": 0.03571428571428571,
+      "LackOfCohesionOfMethods2": 0.7916666666666666
+    },
+    "kind": "public class",
+    "smells": []
+  },
+  {
+    "methods": [
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/console/output/ObservableExclusionStrategy.java"
+        },
+        "fullyQualifiedName": "cmu.detector.console.output.ObservableExclusionStrategy.shouldSkipClass",
+        "metricsValues": {
+          "MaxCallChain": 0.0
+        },
+        "kind": "public method",
+        "smells": []
+      },
+      {
+        "sourceFile": {
+          "fileRelativePath": "src/main/java/cmu/detector/console/output/ObservableExclusionStrategy.java"
+        },
+        "fullyQualifiedName": "cmu.detector.console.output.ObservableExclusionStrategy.shouldSkipField",
+        "metricsValues": {
+          "MaxCallChain": 2.0
+        },
+        "kind": "public method",
+        "smells": []
+      }
+    ],
+    "sourceFile": {
+      "fileRelativePath": "src/main/java/cmu/detector/console/output/ObservableExclusionStrategy.java"
+    },
+    "fullyQualifiedName": "cmu.detector.console.output.ObservableExclusionStrategy",
+    "metricsValues": {
+      "LackOfCohesionOfMethods1": 1.0,
+      "PublicFieldCount": 0.0,
+      "LackOfCohesionOfMethods4": 2.0,
+      "LackOfCohesionOfMethods3": 0.0,
+      "TightClassCohesion": 0.0,
+      "LackOfCohesionOfMethods2": 0.0
+    },
+    "kind": "public class",
+    "smells": []
+  }
+]

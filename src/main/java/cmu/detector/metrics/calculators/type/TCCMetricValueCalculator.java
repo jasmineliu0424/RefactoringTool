@@ -1,5 +1,13 @@
 package cmu.detector.metrics.calculators.type;
 
+import cmu.detector.ast.visitors.CallTreeFieldAccessVisitor;
+import cmu.detector.ast.visitors.VisibleInstanceMethodsVisitor;
+import cmu.detector.metrics.MetricName;
+import cmu.detector.metrics.calculators.MetricValueCalculator;
+import org.eclipse.jdt.core.dom.*;
+
+import java.util.*;
+
 /**
  * This class computes the Tight Class Cohesion (TCC) for a given class.
  * The Tight Class Cohesion (TCC) measures the ratio between the actual number of visible directly connected methods (we exclude private and static methods)
@@ -39,6 +47,95 @@ package cmu.detector.metrics.calculators.type;
  *
  * @author Leonardo Sousa
  */
-public class TCCMetricValueCalculator {
+public class TCCMetricValueCalculator extends MetricValueCalculator {
 
+    @Override
+    protected Double computeValue(ASTNode target) {
+        if (!(target instanceof TypeDeclaration)) {
+            return 0.0;
+        }
+
+        TypeDeclaration typeDecl = (TypeDeclaration) target;
+        
+        // Collect visible instance methods (non-static, non-private)
+        VisibleInstanceMethodsVisitor visibleMethodsVisitor = new VisibleInstanceMethodsVisitor();
+        typeDecl.accept(visibleMethodsVisitor);
+        List<MethodDeclaration> visibleMethods = visibleMethodsVisitor.getVisibleMethods();
+        
+        int N = visibleMethods.size();
+        
+        // If less than 2 methods, TCC is 0
+        if (N < 2) {
+            return 0.0;
+        }
+        
+        // Calculate NP = N * (N - 1) / 2
+        int NP = N * (N - 1) / 2;
+        
+        // Get instance fields
+        Set<IVariableBinding> instanceFields = getInstanceFields(typeDecl);
+        
+        // Analyze field access with call tree
+        CallTreeFieldAccessVisitor callTreeVisitor = new CallTreeFieldAccessVisitor(instanceFields, visibleMethods);
+        callTreeVisitor.analyze(typeDecl);
+        Map<MethodDeclaration, Set<IVariableBinding>> methodFieldAccess = 
+            callTreeVisitor.getMethodFieldAccessWithCallTree();
+        
+        // Count direct connections (NDC)
+        int NDC = 0;
+        for (int i = 0; i < visibleMethods.size(); i++) {
+            for (int j = i + 1; j < visibleMethods.size(); j++) {
+                MethodDeclaration m1 = visibleMethods.get(i);
+                MethodDeclaration m2 = visibleMethods.get(j);
+                
+                Set<IVariableBinding> fields1 = methodFieldAccess.get(m1);
+                Set<IVariableBinding> fields2 = methodFieldAccess.get(m2);
+                
+                if (fields1 == null) fields1 = new HashSet<>();
+                if (fields2 == null) fields2 = new HashSet<>();
+                
+                // Check if they share any fields
+                boolean sharesFields = false;
+                for (IVariableBinding field : fields1) {
+                    if (fields2.contains(field)) {
+                        sharesFields = true;
+                        break;
+                    }
+                }
+                
+                if (sharesFields) {
+                    NDC++;
+                }
+            }
+        }
+        
+        // TCC = NDC / NP
+        return (double) NDC / NP;
+    }
+
+    private Set<IVariableBinding> getInstanceFields(TypeDeclaration typeDecl) {
+        Set<IVariableBinding> fields = new HashSet<>();
+        for (FieldDeclaration field : typeDecl.getFields()) {
+            if (!Modifier.isStatic(field.getModifiers())) {
+                for (Object fragment : field.fragments()) {
+                    VariableDeclarationFragment vdf = (VariableDeclarationFragment) fragment;
+                    IVariableBinding binding = vdf.resolveBinding();
+                    if (binding != null) {
+                        fields.add(binding);
+                    }
+                }
+            }
+        }
+        return fields;
+    }
+
+    @Override
+    public MetricName getMetricName() {
+        return MetricName.TCC;
+    }
+
+    @Override
+    public boolean shouldComputeAggregate() {
+        return true;
+    }
 }
